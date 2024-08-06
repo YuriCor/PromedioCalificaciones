@@ -3,14 +3,15 @@ import java.util.Scanner;
 
 public class PromedioCalificaciones {
     public static void main(String[] args) {
-        System.out.print("Este es el cambio numero 2");
+        System.out.print("Esta es la tercera version del archivo");
+        system.out.print("Parte final de la segunda tarea");
         Scanner scanner = new Scanner(System.in);
        
-	//declarar las variables para las calificaciones
+	
         double calificacion1, calificacion2, calificacion3, calificacion4;
         double suma, promedio;
 
-	//leer las calificaciones
+	
         System.out.print("Ingrese la calificación del primer examen: ");
         calificacion1 = scanner.nextDouble();
         
@@ -23,13 +24,10 @@ public class PromedioCalificaciones {
         System.out.print("Ingrese la calificación del cuarto examen: ");
         calificacion4 = scanner.nextDouble();
 
-	//calcular la suma de las calificaciones
         suma = calificacion1 + calificacion2 + calificacion3 + calificacion4;
 
-	//calcular el promedio
         promedio = suma / 4;
 
-	//mostrar el promedio
         System.out.println("El promedio de las calificaciones es: " + promedio);
         
         scanner.close();
