@@ -1,9 +1,11 @@
 import java.util.Scanner;
+@author yuri cortez
 
 public class PromedioCalificaciones {
     public static void main(String[] args) {
+        System.out.print("Este es el cambio numero 2");
         Scanner scanner = new Scanner(System.in);
-
+       
 	//declarar las variables para las calificaciones
         double calificacion1, calificacion2, calificacion3, calificacion4;
         double suma, promedio;
